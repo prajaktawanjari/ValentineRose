@@ -10,7 +10,7 @@ items.forEach(item => {
     item.textContent = item.dataset.item;
 
     if (item.classList.contains("rose")) {
-      message.innerHTML = "🌹 You found the rose! Be my Valentine? 💖";
+      message.innerHTML = "🌹 A rose for my rose 💖";
     } else {
       item.classList.add("wrong");
     }
